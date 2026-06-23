@@ -7,10 +7,12 @@ import './App.css'
 function App() {
   return (
     <>
-    <Header title="Min bokhylla"/>
-    {books.map((book) => (
-      <BookCard key={book.id} book={book} />
-    ))}
+    <Header title="Min boksamling"/>
+    <div className='book-list'>
+      {books.map((book) => (
+        <BookCard key={book.id} book={book} />
+      ))}
+    </div>
     <Footer />
     </>
   )

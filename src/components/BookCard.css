@@ -1,0 +1,15 @@
+.book-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.book-card h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.2rem;
+}
+
+.book-card p {
+  margin: 0.25rem 0;
+  color: white;
+}
