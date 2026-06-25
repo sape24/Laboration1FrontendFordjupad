@@ -1,3 +1,4 @@
+//Interface med id för varje bok för att göra den unik
 export interface Book {
     id: number,
     title: string,

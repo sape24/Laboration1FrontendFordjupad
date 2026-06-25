@@ -8,6 +8,7 @@ function App() {
   return (
     <>
     <Header title="Min boksamling"/>
+    {/* Listan byggs dynamiskt från datan, ett kort per bok med unik nyckel*/}
     <div className='book-list'>
       {books.map((book) => (
         <BookCard key={book.id} book={book} />

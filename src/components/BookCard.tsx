@@ -8,6 +8,7 @@ function BookCard ({ book }: {book: Book}) {
             <p>{book.author}</p>
             <p>{book.genre}</p>
             <p>{book.pages} sidor</p>
+            {/* Ternary för conditional läst eller oläst status */}
             <p>{book.read ? "Läst" : "Oläst"}</p>
         </article>
     );
